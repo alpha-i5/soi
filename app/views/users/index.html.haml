@@ -1,0 +1,15 @@
+.body
+.grad
+.header
+  %div
+    Site
+    %span Random
+%br/
+.login
+  %input{name: "user", placeholder: "username", type: "text"}/
+  %br/
+  %input{name:  "password", placeholder:  "password", type:  "password"}/
+  %br/
+  -# %input{type:  "button", value:  ""}/
+  = link_to users_edit_path do
+    login

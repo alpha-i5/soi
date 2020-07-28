@@ -1,0 +1,43 @@
+.bottom-content {
+  height: 800px ;
+  margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(116, 36, 192);
+  font-size: 20px;
+}
+
+.small-field,  .large-field {
+  width: 800px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #b5aaaa;
+}
+
+.large-field{
+  height: 200px;
+}
+
+.send {
+  display: block;
+  width: 200px;
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: lightblue;
+  color:white;
+}
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #f0f0f0;
+}

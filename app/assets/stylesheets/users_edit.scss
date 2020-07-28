@@ -1,0 +1,122 @@
+// body {
+//   margin: 0;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background: #ffebcc;
+//   overflow: hidden;
+// }
+
+.main-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 300px;
+}
+
+// input {
+//   color: white;
+//   font-size: 2em;
+//   width: 180px;
+//   top: 36px;
+//   left: 5.6em;
+//   position: absolute;
+//   background: transparent;
+//   border: none;
+//   text-align: center;
+//   pointer-events: none;
+// }
+
+.images-container {
+  position: absolute;
+  top: 120px;
+  left: 12em;
+  pointer-events: none;
+  user-select: none;
+  margin:0 0 0 380px;
+}
+
+.images-row {
+  padding: 1em 0;
+}
+
+.images-row img:nth-child(2) {
+  padding: 0 1em;
+}
+
+.images-row:first-child {
+  position: relative;
+  top: 6px;
+}
+
+.images-row:nth-child(2) {
+  position: relative;
+  top: 8px;
+}
+
+.images-row:last-child {
+  position: relative;
+  top: -2px;
+}
+
+img {
+  width: 40px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.btns-container {
+  position: relative;
+  top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background: white;
+  padding: 3px 24px;
+  margin: 6px;
+  cursor: pointer;
+  background: #ff9c00;
+  border-radius: 5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 6px 0 #d87b00;
+  user-select: none;
+}
+
+.btn:hover {
+  background: #eb9100;
+}
+
+.btn:active {
+  box-shadow: 0 0 0 #d87b00;
+  position: relative;
+  top: 6px;
+}
+
+.st0{fill:#D87B00;}
+.st1{fill:#FF9C00;}
+.st2{fill:#FFCA7D;}
+.st3{fill:#1B140D;}
+.st4{fill:#381F12;}
+.st5{opacity:0.6;fill:#78563A;}
+.st6{fill:#ECDAAA;}
+.st7{fill:#FCAF3C;}
+.st8{fill:#1E100C;}
+.st9{opacity:0.3;fill:#1B140D;}
+.st10{opacity:0.23;fill:#FFC9A1;}
+.st11{fill:#381F12;stroke:#FFCA7D;stroke-width:6;stroke-miterlimit:10;}
+.st12{fill:#FFFFFF;}
+
+@media (max-height: 720px) {
+  .main-wrapper {
+    transform: scale(.7);
+  }
+}
